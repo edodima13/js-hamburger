@@ -10,3 +10,8 @@ openMenu.addEventListener("click", function(){
     hamburger.classList.add("active")
 })
 
+//far scomparire la lista
+closeMenu.addEventListener("click", function(){
+    hamburger.classList.remove("active")
+})
+
